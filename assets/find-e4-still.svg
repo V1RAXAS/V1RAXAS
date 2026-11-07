@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="228" viewBox="0 0 840 228" role="img" aria-labelledby="title desc">
+  <title id="title">Find E4 on a guitar fretboard</title>
+  <desc id="desc">On the three highest strings in standard tuning, E4 can be played on the open high E string, on fret five of the B string, or on fret nine of the G string.</desc>
+  <defs>
+    <pattern id="phosphor" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".46" fill="#83cc96" opacity=".16"/></pattern>
+    <clipPath id="draft"><rect class="draft" width="0" height="46"/></clipPath>
+    <clipPath id="result"><rect class="result" width="279.33" height="46"/></clipPath>
+    <style>
+      text { font-family:ui-monospace,Menlo,Consolas,monospace }
+      .legend { fill:#a8c8b4;font-size:13px;letter-spacing:1px }
+      .number { fill:#a1c6b1;font-size:14px;text-anchor:middle }
+      .guess { fill:#c1d3bd }
+      .answer { fill:#b7ffc2 }
+      .draft { --line:226.95px }
+      .result { --line:279.33px }
+
+    </style>
+  </defs>
+  <rect x=".5" y=".5" width="839" height="227" rx="10" fill="#07140f" stroke="#315b42"/>
+  <rect x="1" y="1" width="838" height="226" rx="10" fill="url(#phosphor)"/>
+  <text x="28" y="52" fill="#ebf4e7" font-size="29" font-weight="bold">E4</text>
+  <text x="81" y="51" fill="#94b09b" font-size="17">/ pitch lookup</text>
+  <text x="28" y="81" class="legend">STANDARD TUNING · FRETS 0–9</text>
+  <g transform="translate(28 142)">
+    <text y="24" fill="#6aef9e" font-size="29">&gt;</text>
+    <g transform="translate(29.68 0)">
+      <text class="guess" y="24" font-size="29" textLength="226.95" lengthAdjust="spacingAndGlyphs" clip-path="url(#draft)">One position?</text>
+      <text class="answer" y="24" font-size="29" textLength="279.33" lengthAdjust="spacingAndGlyphs" clip-path="url(#result)">Three positions.</text>
+    </g>
+  </g>
+<path d="M372 26V202" stroke="#2c4e3c"/>
+  <g stroke="#31523d" stroke-width="1">
+    <path d="M487.67 61v86"/>
+    <path d="M527.33 61v86"/>
+    <path d="M567.00 61v86"/>
+    <path d="M606.67 61v86"/>
+    <path d="M646.33 61v86"/>
+    <path d="M686.00 61v86"/>
+    <path d="M725.67 61v86"/>
+    <path d="M765.33 61v86"/>
+    <path d="M805.00 61v86"/>
+  </g><path stroke="#85a78e" stroke-width="2.5" d="M448 61v86"/>
+  <text x="407" y="73" fill="#c4ddc7" font-size="16">e</text>
+  <path d="M448 69h357.00" stroke="#73967c" stroke-width="1.0"/>
+  <text x="407" y="108" fill="#c4ddc7" font-size="16">B</text>
+  <path d="M448 104h357.00" stroke="#73967c" stroke-width="1.25"/>
+  <text x="407" y="143" fill="#c4ddc7" font-size="16">G</text>
+  <path d="M448 139h357.00" stroke="#73967c" stroke-width="1.5"/>
+  <text class="number" x="436.00" y="50">0</text>
+  <text class="number" x="547.17" y="50">3</text>
+  <text class="number" x="626.50" y="50">5</text>
+  <text class="number" x="705.83" y="50">7</text>
+  <text class="number" x="785.17" y="50">9</text>
+  <g class="positions">
+    <circle cx="436.00" cy="69" r="9" fill="#0a2518" stroke="#69d994" stroke-width="1.2"/>
+    <circle cx="436.00" cy="69" r="4" fill="#bbffca"/>
+    <circle cx="626.50" cy="104" r="9" fill="#0a2518" stroke="#69d994" stroke-width="1.2"/>
+    <circle cx="626.50" cy="104" r="4" fill="#bbffca"/>
+    <circle cx="785.17" cy="139" r="9" fill="#0a2518" stroke="#69d994" stroke-width="1.2"/>
+    <circle cx="785.17" cy="139" r="4" fill="#bbffca"/>
+  </g>
+  <text x="622.00" y="202" text-anchor="middle" fill="#b3d3ba" font-size="16" xml:space="preserve">e / open      B / 5      G / 9</text>
+</svg>
